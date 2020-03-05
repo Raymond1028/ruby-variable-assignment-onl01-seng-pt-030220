@@ -22,6 +22,7 @@ Failures:
      # ./spec/spec_helper.rb:14:in `rescue in get_variable_from_file'
      # ./spec/spec_helper.rb:11:in `get_variable_from_file'
      # ./spec/variable_spec.rb:5:in `block (2 levels) in <top (required)>'
+     
 
 Finished in 0.00075 seconds (files took 0.0839 seconds to load)
 1 example, 1 failure
@@ -34,3 +35,4 @@ To solve this test failure, create a local variable `greeting` in the `variable.
 * [Introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-variable-assignment' title='Variable Assignment'>Variable Assignment</a> on Learn.co and start learning to code for free.</p>
+greeting = "Hello World"
